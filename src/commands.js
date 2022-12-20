@@ -24,7 +24,32 @@ export let commands = [
     },
     {
         command: "/projects",
-        payload: "this is the projects command"
+        payload: 
+               <>
+        <div className="payload-header">
+            -----Projects-----
+            <br />
+            <br />
+                <p>Below is a list of vanilla JS and React JS projects I've completed </p>
+            <br />
+            <br />
+        </div>
+        <h4 className="payload-header">Vanilla JavaScript</h4>
+        <br />
+        <h4 className="payload-body">-- The Pig Game --</h4>
+        <br />
+        <div className="payload-body">
+            <p>
+            Contrary to popular belief, the pig game actually contains ZERO pigs. This is actually a two player dice game, a race to 100 points.
+            <br />
+            <br />
+            In this game, there are two players who take turns rolling a die. Each round, one player can roll the dice, if they roll a "1", their turn is over and they earn no points for that turn. However, the player can choose to end their turn and take the points instead of risking rolling a "1". First player to 100 points wins!
+            <br />
+            <br />
+            This uses vanilla JS, HTML and CSS, all the source code is on my Github <a href="https://github.com/jon-tschida/Pig-game" target="_blank" rel="noreferrer">HERE</a>
+            </p>
+        </div>
+        </>
     },
     {
         command: "clear",
