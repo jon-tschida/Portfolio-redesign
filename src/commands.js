@@ -30,12 +30,34 @@ export let commands = [
             -----Projects-----
             <br />
             <br />
-                <p>Below is a list of vanilla JS and React JS projects I've completed </p>
+                <p>Use the flags below to get some more details and see a working copy of the project.</p>
             <br />
+            <p> For example: /projects --listify</p>
             <br />
+            </div>
+            <div className="payload-body">
+            <p>Vanilla JavaScript</p>
+            <ul>
+                <li>--pig-game</li>
+                <li>--weather-app</li>
+                <li>--mock-bank</li>
+            </ul>
+            </div>
+            <br />
+            <div className="payload-body">
+            <p>React JS</p>
+            <ul>
+                <li>--improved-new-tab</li>
+                <li>--listify</li>
+                <li>--portfolio-site</li>
+            </ul>
         </div>
-        <h4 className="payload-header">Vanilla JavaScript</h4>
-        <br />
+        </>
+    },
+    {
+        command: "/projects --pig-game",
+        payload: 
+        <>
         <h4 className="payload-body">-- The Pig Game --</h4>
         <br />
         <div className="payload-body">
