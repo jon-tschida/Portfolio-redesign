@@ -73,6 +73,32 @@ export let commands = [
         </div>
         </>
     },
+     {
+        command: "/projects --weather-app",
+        payload: 
+        <>
+        <h4 className="payload-body">-- Weather App --</h4>
+        <br />
+        <div className="payload-body">
+        
+        <p>
+        The weather app is just as it sounds, a weather app that displays the local weather with current weather info, an hourly forecast, as well as a 7 day forecast. I made this as practice for making API calls and parsing API data into meaningful info on a web-page.
+        </p>
+        <br />
+        <p>
+        This uses the Openweather API to get the weather info from the latitude and longitude from the visitor. More on the Openweather API <a href="https://openweathermap.org/api" target="_blank" rel="noreferrer">HERE</a>.
+        </p>
+        <br />
+        <p>
+        We get the latitude and longitude from the user automatically using Geolocation API via JavaScript. More info on that API <a href="https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API" target="_blank" rel="noreferrer">HERE</a>. So your browser may ask permission for the web-app to get your location, but this is just to fill in the weather data.
+        </p>
+        <br />
+        <p>
+        This uses vanilla JS, HTML and CSS, all the source code is on my Github <a href="https://github.com/jon-tschida" target="_blank" rel="noreferrer">HERE</a>.
+        </p>
+        </div>
+        </>
+    },
     {
         command: "clear",
         payload: ""
