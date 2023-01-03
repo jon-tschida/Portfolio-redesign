@@ -158,6 +158,26 @@ export let commands = [
         </>
     },
     {
+        command: "/projects --portfolio-site",
+        payload: 
+        <>
+        <h4 className="payload-body">-- Portfolio Site --</h4>
+        <br />
+        <div className="payload-body">
+        <p>This project is the one you are using right now, my portfolio site!</p>
+        <br />
+        <p>This site was build using React 18 with funcitonal components to mimic a command line interface, which I called JT-CLI (Jon Tschida Command Line Interface). My old portfolio site was much more traditional, build in vanilla JS and HTML/CSS. </p>
+
+        <br />
+        <p>
+        After that was live for ~1 year, I figured it was time to update it to something more unique, maybe something that would stand out more. I figured a mock CLI type of site would be unique enough to turn a head or two, and also show off my abilites.</p>
+        <br />
+        <p>If you would like, you can still view my old portfolio site <a>HERE</a></p>
+
+        </div>
+        </>
+    },
+    {
         command: "clear",
         payload: ""
     },
