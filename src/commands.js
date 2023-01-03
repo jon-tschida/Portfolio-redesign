@@ -26,6 +26,7 @@ export let commands = [
         command: "/projects",
         payload: 
                <>
+                       <br />
         <div className="payload-header">
             -----Projects-----
             <br />
@@ -40,7 +41,6 @@ export let commands = [
             <ul>
                 <li>--pig-game</li>
                 <li>--weather-app</li>
-                <li>--mock-bank</li>
             </ul>
             </div>
             <br />
@@ -58,6 +58,7 @@ export let commands = [
         command: "/projects --pig-game",
         payload: 
         <>
+                <br />
         <h4 className="payload-body">-- The Pig Game --</h4>
         <br />
         <div className="payload-body">
@@ -77,6 +78,7 @@ export let commands = [
         command: "/projects --weather-app",
         payload: 
         <>
+                <br />
         <h4 className="payload-body">-- Weather App --</h4>
         <br />
         <div className="payload-body">
@@ -96,6 +98,62 @@ export let commands = [
         <p>
         This uses vanilla JS, HTML and CSS, all the source code is on my Github <a href="https://github.com/jon-tschida" target="_blank" rel="noreferrer">HERE</a>.
         </p>
+        </div>
+        </>
+    },
+    {
+        command: "/projects --improved-new-tab",
+        payload: 
+        <>
+                <br />
+        <h4 className="payload-body">-- Improved New Tab --</h4>
+        <br />
+        <div className="payload-body">
+        
+        <p>
+            This was my first attempt at a React project after doing some learning about how to build in React. It utilizes useState, useLayoutEffect and useEffect. It was my first time trying to manage state, but I was able to do so without too much component drilling, and tried to stick to the `one source of truth` motto. It is going through constant development as I think of new things I want to add or feature requets from friends that use it.
+        </p>
+        <br />
+        <p> 
+            I wanted to create a project that was unique and wasn't another "to-do" app. This is something that I use everyday, and solved a problem for me. The Improved New Tab project is supposed to be able to replace your New Tab // New Window page in your browser.
+        </p>
+        <br />
+        <p>
+            When you first load up the page, it will ask for a location to get weather info. Once you enter the City and State, it will grab weather info for that city and give a short current temp description and high for the day. This includes a small Crypto ticker at the bottom with 3 popular Crypto currencies. The ticker can be deactivated from the settings menu in the top left. Also in the menu, you can change the unit of measurement for the weather data. All of these settings are saved in local storage so you don't have to enter that info next time you visit the page.
+        </p>
+        <br />
+
+        <p>
+            This appp uses React 18 utilizing funcitonal components, as well as CSS. It utilizes OpeanWeather API, Messari.io API for Crypto prices, and PTV Developer API for location Lattitude and Longitude. It is also hosted on Netlify. You can view the source code on my Github <a href="https://github.com/jon-tschida/Improved-New-Tab" target="_blank" rel="noreferrer">HERE</a>.
+        </p>
+        <br />
+
+        <p>This project is live <a href="https://improved-new-tab.netlify.app" target="_blank" rel="noreferrer">HERE</a></p>
+
+        </div>
+        </>
+    },
+    {
+        command: "/projects --listify",
+        payload: 
+        <>
+        <h4 className="payload-body">-- Listify --</h4>
+        <br />
+        <div className="payload-body">
+        
+        <p>This was my second React project to date, it was quite a bit more ambitious than I initially thought it would be. But the whole goal of this application was to solve I problem I had, creating grocery lists.</p>
+
+        <br />
+        <p>Listify was made to make creating grocery lists easier. To get started, create a new a new meal by clicking the "+" sign in left box with the "Meals" title. This will open another section for you to create your meal. In this area, you can give your meal a title and ingredients. Once you have your meal titled and ingredients added, click the "Add meal" to add it to your meal lists.</p>
+        <br />
+
+        <p>Now that you have some meals created, just click or tap any of the meals, and the ingredients will be added to your grocery list! No more thinking through your meals for the week and what you need to shop for, just Listify them!</p>
+
+        <br />
+        <p>This appp uses React 18 utilizing funcitonal components. It is currently a live site, but may be converted or copied into a React Native app for iOS and Android. You can view the source code on my Github <a href="https://github.com/jon-tschida/Listify" target="_blank" rel="noreferrer">HERE</a>.</p>
+        <br />
+        <p>This project is live <a href="https://improved-new-tab.netlify.app" target="_blank" rel="noreferrer">HERE</a>.</p>
+
         </div>
         </>
     },
