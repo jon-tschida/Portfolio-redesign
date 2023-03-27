@@ -160,6 +160,10 @@ export let commands = [
         payload: ""
     },
     {
+        command: "exit",
+        payload: "closing session..."
+    },
+    {
         command: "ping",
         payload: "Pong!"
     },

@@ -14,6 +14,7 @@ export default function CLIPannel(props) {
       // First we check to see if the command is in the list via commandChecker.
       // If the command is present, then we loop through the list and look for the matching command. 
       // Once we find the matching command, we set our output to the command payload, including some line breaks for styling sakes. 
+      
       if (commandChecker(commands, input)){
         for(let i = 0; i < commands.length; i++) {
           if(commands[i].command === input){ 
@@ -21,17 +22,22 @@ export default function CLIPannel(props) {
             break;
           }
           else if (input === "clear") setOutput("")
+          else if (input === "exit") {
+            setTimeout(()=>{
+                setIsClosed(true)
+            }, 1200)
+          }
           else continue;
         }
       }
-      else setOutput(prevState => <>{prevState} -JT-CLI: {input}: command not found <br /> </>)
+      else setOutput(prevState => <>{prevState} -JT-CLI: {input}: command not found (did you add a space after the command?) <br /> </>)
       
       // clear input field on submission
       setInput("")
      }
     
      const handleChange = (event) => {
-      setInput(event.target.value.toLowerCase())
+      setInput(event.target.value.toLowerCase().trimStart())
     } 
 
     const handleClose = () => {
