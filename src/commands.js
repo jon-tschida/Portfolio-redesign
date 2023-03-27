@@ -39,7 +39,6 @@ export let commands = [
             <div className="payload-body">
             <p>Vanilla JavaScript</p>
             <ul>
-                <li>--pig-game</li>
                 <li>--weather-app</li>
             </ul>
             </div>
@@ -54,32 +53,12 @@ export let commands = [
         </div>
         </>
     },
-    {
-        command: "/projects --pig-game",
-        payload: 
-        <>
-                <br />
-        <h4 className="payload-body">-- The Pig Game --</h4>
-        <br />
-        <div className="payload-body">
-            <p>
-            Contrary to popular belief, the pig game actually contains ZERO pigs. This is actually a two player dice game, a race to 100 points.
-            <br />
-            <br />
-            In this game, there are two players who take turns rolling a die. Each round, one player can roll the dice, if they roll a "1", their turn is over and they earn no points for that turn. However, the player can choose to end their turn and take the points instead of risking rolling a "1". First player to 100 points wins!
-            <br />
-            <br />
-            This uses vanilla JS, HTML and CSS, all the source code is on my Github <a href="https://github.com/jon-tschida/Pig-game" target="_blank" rel="noreferrer">HERE</a>
-            </p>
-        </div>
-        </>
-    },
      {
         command: "/projects --weather-app",
         payload: 
         <>
                 <br />
-        <h4 className="payload-body">-- Weather App --</h4>
+        <h4 className="payload-body">-- Vanilla JS Weather App --</h4>
         <br />
         <div className="payload-body">
         
@@ -96,7 +75,7 @@ export let commands = [
         </p>
         <br />
         <p>
-        This uses vanilla JS, HTML and CSS, all the source code is on my Github <a href="https://github.com/jon-tschida" target="_blank" rel="noreferrer">HERE</a>.
+        This uses vanilla JS, HTML and CSS, all the source code is on my Github <a href="https://github.com/jon-tschida/vanilla-js-weather" target="_blank" rel="noreferrer">HERE</a>.
         </p>
         </div>
         </>
@@ -152,7 +131,7 @@ export let commands = [
         <br />
         <p>This appp uses React 18 utilizing funcitonal components. It is currently a live site, but may be converted or copied into a React Native app for iOS and Android. You can view the source code on my Github <a href="https://github.com/jon-tschida/Listify" target="_blank" rel="noreferrer">HERE</a>.</p>
         <br />
-        <p>This project is live <a href="https://improved-new-tab.netlify.app" target="_blank" rel="noreferrer">HERE</a>.</p>
+        <p>This project is live <a href="https://listify-meals.com/" target="_blank" rel="noreferrer">HERE</a>.</p>
 
         </div>
         </>
@@ -172,8 +151,7 @@ export let commands = [
         <p>
         After that was live for ~1 year, I figured it was time to update it to something more unique, maybe something that would stand out more. I figured a mock CLI type of site would be unique enough to turn a head or two, and also show off my abilites.</p>
         <br />
-        <p>If you would like, you can still view my old portfolio site <a>HERE</a></p>
-
+        <p>If you like, you can view the source files on GitHub <a target="_blank" href="https://github.com/jon-tschida/Portfolio-redesign">HERE</a></p>
         </div>
         </>
     },
@@ -256,10 +234,10 @@ export let commands = [
 
             <div className="payload-body-skills">
             <ul>
-                <li>Problem Solving</li>
+                <li>Tailwind CSS</li>
                 <li>WordPress Development</li>
-                <li>WordPress troubleshooting</li>
                 <li>Trainability</li>
+                <li>Customer Support</li>
             </ul>
             </div>
         </div>
@@ -284,6 +262,17 @@ export let commands = [
         <div className="payload-body">
             <ul>
                 <li><a target="_blank" rel="noreferrer" href="https://www.freecodecamp.org/certification/jon-tschida/responsive-web-design">View Certificate</a></li>
+            </ul>
+        </div>
+        <br />
+        <br />
+        <br />
+        <h4 className="payload-body">-- Front End Development Libraries Certificate --</h4>
+        <p className="payload-body">Issued by FreeCodeCamp · March 2023</p>
+        <br />
+        <div className="payload-body">
+            <ul>
+                <li><a target="_blank" rel="noreferrer" href="https://www.freecodecamp.org/certification/jon-tschida/front-end-development-libraries">View Certificate</a></li>
             </ul>
         </div>
 
