@@ -7,10 +7,7 @@ import Minimized from "./components/Minimized.js";
 const commandChecker = (arr, str) =>{
   let strCheck = str.trimEnd();
   for (let i = 0; i < arr.length; i++){
-    if (arr[i].command === strCheck) {
-      console.log(`found!`, strCheck)
-      return true;
-  }
+    if (arr[i].command === strCheck) return true;
     else continue;
   }
   return false;
