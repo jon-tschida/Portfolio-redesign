@@ -1,5 +1,27 @@
 export let commands = [
     {
+        command: "ls",
+        payload: 
+        <>
+        <div className="payload-header">
+            <br />
+            list of commands
+        </div>
+        <div className="payload-body">
+            <ul>
+                <li>/projects - get a list of projects</li>
+                <li>/about - displays a short synposis to learn more about me</li>
+                <li>/resume - print out my up-to-date resume to see work history and skills</li>
+                <li>/github - get a link to my github account</li>
+                <li>/LinkedIn - get a link to my LinkedIn account</li>
+                <li>ping</li>
+                <li>exit</li>
+            </ul>
+        </div>
+
+        </>
+    },
+    {
         command: "/help",
         payload: 
         <>

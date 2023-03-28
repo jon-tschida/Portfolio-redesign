@@ -1,5 +1,6 @@
 import React from 'react'
 import { commands } from '../commands'
+import Draggable from 'react-draggable'
 
 export default function CLIPannel(props) {
     let { commandChecker, handleMinimize, isClosed, setIsClosed } = props
@@ -77,6 +78,7 @@ export default function CLIPannel(props) {
     
     
       return (
+        <Draggable  >
         <div className={isMax ? `terminal-window-full` : isClosed ? `hidden` : `terminal-window`}>
           <div className="terminal-bar">
             <img className="nav-icon" src={require("../images/close.png")} alt="close" onClick={handleClose}></img>
@@ -98,5 +100,6 @@ export default function CLIPannel(props) {
             </form>
           </div>
         </div>
+        </Draggable>
       );
 }
