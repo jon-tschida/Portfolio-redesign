@@ -8,6 +8,7 @@ export default function CLIPannel(props) {
     const [userBrowser, setUserBrowser] = React.useState(``)
     const [input, setInput] = React.useState("")
     const [output, setOutput] = React.useState("")
+    const [isMax, setIsMax] = React.useState(false)
     
     const handleSubmit = (e) =>{
       e.preventDefault();
@@ -30,7 +31,7 @@ export default function CLIPannel(props) {
           else continue;
         }
       }
-      else setOutput(prevState => <>{prevState} -JT-CLI: {input}: command not found (did you add a space after the command?) <br /> </>)
+      else setOutput(prevState => <>{prevState} -JT-CLI: {input}: command not found. <br /> </>)
       
       // clear input field on submission
       setInput("")
@@ -40,10 +41,8 @@ export default function CLIPannel(props) {
       setInput(event.target.value.toLowerCase().trimStart())
     } 
 
-    const handleClose = () => {
-        setIsClosed(true)
-        console.log(`clicked`)
-    }
+    const handleClose = () => setIsClosed(true)
+    const handleMax = () => setIsMax(prevState => !prevState);
     
     React.useEffect(()=>{
       let userAgent = navigator.userAgent;
@@ -78,10 +77,10 @@ export default function CLIPannel(props) {
     
     
       return (
-        <div className={isClosed ? `hidden terminal-window` : `terminal-window`}>
+        <div className={isMax ? `terminal-window-full` : isClosed ? `hidden` : `terminal-window`}>
           <div className="terminal-bar">
             <img className="nav-icon" src={require("../images/close.png")} alt="close" onClick={handleClose}></img>
-            <img className="nav-icon" src={require("../images/maximize.png")} alt="maximize" ></img>
+            <img className="nav-icon" src={require("../images/maximize.png")} alt="maximize" onClick={handleMax}></img>
             <img className="nav-icon" src={require("../images/minimize.png")} alt="minimize" onClick={handleMinimize} ></img>
           </div>
           <div className="terminal-content">

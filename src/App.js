@@ -5,7 +5,6 @@ import Minimized from "./components/Minimized.js";
 
 // function for checking to see if a string is present in the commands list
 const commandChecker = (arr, str) =>{
-
   for (let i = 0; i < arr.length; i++){
     if (arr[i].command === str) return true;
     else continue;
