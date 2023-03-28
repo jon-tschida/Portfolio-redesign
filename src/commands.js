@@ -331,7 +331,7 @@ export let commands = [
           to create whatever can be imagined (with some help from Google of
           course). JavaScript fit the bill perfectly to power whatever came to
           mind, especially with how many different frameworks that are
-          available.
+          available, eventually finding a good fit with React. 
         </p>
         <br />
         <p>

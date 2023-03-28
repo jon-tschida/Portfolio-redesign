@@ -88,7 +88,7 @@ export default function CLIPannel(props) {
                 Welcome to Jon Tschida's Command Line Interface (JT-CLI) {test[count]}
                 <br />
                 <br />
-                For a list of commands, type /help
+                <u>For a list of commands, type /help</u>
             </div>
     
             {output}
