@@ -49,6 +49,7 @@ export let commands = [
                 <li>--improved-new-tab</li>
                 <li>--listify</li>
                 <li>--portfolio-site</li>
+                <li>--react-weather</li>
             </ul>
         </div>
         </>
@@ -103,7 +104,7 @@ export let commands = [
         <br />
 
         <p>
-            This appp uses React 18 utilizing funcitonal components, as well as CSS. It utilizes OpeanWeather API, Messari.io API for Crypto prices, and PTV Developer API for location Lattitude and Longitude. It is also hosted on Netlify. You can view the source code on my Github <a href="https://github.com/jon-tschida/Improved-New-Tab" target="_blank" rel="noreferrer">HERE</a>.
+            This app uses React 18 utilizing funcitonal components, as well as CSS. It utilizes OpeanWeather API, Messari.io API for Crypto prices, and PTV Developer API for location Lattitude and Longitude. It is also hosted on Netlify. You can view the source code on my Github <a href="https://github.com/jon-tschida/Improved-New-Tab" target="_blank" rel="noreferrer">HERE</a>.
         </p>
         <br />
 
@@ -132,6 +133,30 @@ export let commands = [
         <p>This appp uses React 18 utilizing funcitonal components. It is currently a live site, but may be converted or copied into a React Native app for iOS and Android. You can view the source code on my Github <a href="https://github.com/jon-tschida/Listify" target="_blank" rel="noreferrer">HERE</a>.</p>
         <br />
         <p>This project is live <a href="https://listify-meals.com/" target="_blank" rel="noreferrer">HERE</a>.</p>
+
+        </div>
+        </>
+    },
+        {
+        command: "/projects --react-weather",
+        payload: 
+        <>
+        <h4 className="payload-body">-- React Weather App --</h4>
+        <br />
+        <div className="payload-body">
+        
+        <p>I had made a few different iterations of a weather app in vanilla JS, but I wanted to test myself and create the same thing in React.</p>
+
+        <br />
+        <p>The React Weather App is quite a bit more responsive than the vanilla JS version, primarily with expandable hour cards to give more info.</p>
+        <br />
+
+        <p>The option to switch between metric and imperial units is also a big improvement over the JS version.</p>
+
+        <br />
+        <p>This appp uses React 18 utilizing funcitonal components.</p>
+        <br />
+        <p>You can view the source code on my Github <a href="https://github.com/jon-tschida/react-weather-app" target="_blank" rel="noreferrer">HERE</a>.</p>
 
         </div>
         </>
