@@ -12,18 +12,18 @@ export default function CLIPannel(props) {
     
     const handleSubmit = (e) =>{
       e.preventDefault();
-      // First we check to see if the command is in the list via commandChecker.
+      // First we check to see if the command is in the list via commandChecker function (located in App.js), commandChecker returns true or false.
       // If the command is present, then we loop through the list and look for the matching command. 
       // Once we find the matching command, we set our output to the command payload, including some line breaks for styling sakes. 
-      
       if (commandChecker(commands, input)){
+        let strCheck = input.trimEnd();
         for(let i = 0; i < commands.length; i++) {
-          if(commands[i].command === input){ 
+          if(commands[i].command === strCheck){ 
             setOutput(prevState => <>{prevState} {commands[i].payload} <br /></>)
             break;
           }
-          else if (input === "clear") setOutput("")
-          else if (input === "exit") {
+          else if (strCheck === "clear") setOutput("")
+          else if (strCheck === "exit") {
             setTimeout(()=>{
                 setIsClosed(true)
             }, 1200)

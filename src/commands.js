@@ -9,7 +9,6 @@ export let commands = [
             Below are a list of commands you can use learn more about me!
         </div>
         <div className="payload-body">
-            {/* TODO list out commands using either a list or manually */}
             <ul>
                 <li>/projects - get a list of projects</li>
                 <li>/about - displays a short synposis to learn more about me</li>
