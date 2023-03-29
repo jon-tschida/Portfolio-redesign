@@ -2,7 +2,7 @@ import React from 'react'
 import { commands } from '../commands'
 import Draggable from 'react-draggable'
 
-console.log(`hey :)`)
+console.log(`hey`)
 
 export default function CLIPannel(props) {
     let { commandChecker, handleMinimize, isClosed, setIsClosed } = props
