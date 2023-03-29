@@ -86,7 +86,7 @@ export default function CLIPannel(props) {
         <div className={isMax ? `terminal-window-full` : isClosed ? `hidden` : `terminal-window`} onClick={()=> terminalInput.current.focus()}>
           <div className="terminal-bar">
             <img className="nav-icon" src={require("../images/close.png")} alt="close" onClick={handleClose}></img>
-            <img className="nav-icon" src={require("../images/maximize.png")} alt="maximize" onClick={handleMax}></img>
+            <img className="nav-icon" src={require(`../images/${isMax ? "window-resore" : "maximize"}.png`)} alt="maximize" onClick={handleMax}></img>
             <img className="nav-icon" src={require("../images/minimize.png")} alt="minimize" onClick={handleMinimize} ></img>
           </div>
           <div className="terminal-content">
