@@ -2,8 +2,12 @@ import React from 'react'
 import { commands } from '../commands'
 import Draggable from 'react-draggable'
 
+console.log(`hey :)`)
+
 export default function CLIPannel(props) {
     let { commandChecker, handleMinimize, isClosed, setIsClosed } = props
+
+    const terminalInput = React.useRef(null);
     const [test] = React.useState(["|", "/" , "-", "\\", "|", "/", "-", "\\"])
     const [count, setCount ] = React.useState(0)
     const [userBrowser, setUserBrowser] = React.useState(``)
@@ -78,8 +82,8 @@ export default function CLIPannel(props) {
     
     
       return (
-        <Draggable  >
-        <div className={isMax ? `terminal-window-full` : isClosed ? `hidden` : `terminal-window`}>
+        // <Draggable  >
+        <div className={isMax ? `terminal-window-full` : isClosed ? `hidden` : `terminal-window`} onClick={()=> terminalInput.current.focus()}>
           <div className="terminal-bar">
             <img className="nav-icon" src={require("../images/close.png")} alt="close" onClick={handleClose}></img>
             <img className="nav-icon" src={require("../images/maximize.png")} alt="maximize" onClick={handleMax}></img>
@@ -96,10 +100,10 @@ export default function CLIPannel(props) {
             {output}
     
             <form onSubmit={handleSubmit}>
-              {`${userBrowser}:~ User$ `} <input type="text" value={input} onChange={handleChange}></input> 
+              {`${userBrowser}:~ User$ `} <input type="text" value={input} onChange={handleChange} autoComplete="off" ref={terminalInput}></input> 
             </form>
           </div>
         </div>
-        </Draggable>
+        // </Draggable>
       );
 }
