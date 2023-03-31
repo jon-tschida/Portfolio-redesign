@@ -99,6 +99,8 @@ export let commands = [
         <p>
         This uses vanilla JS, HTML and CSS, all the source code is on my Github <a href="https://github.com/jon-tschida/vanilla-js-weather" target="_blank" rel="noreferrer">HERE</a>.
         </p>
+        <br />
+        <p>You can view a working copy of the project <a href="https://jt-vanilla-js-weather.netlify.app/" target="_blank" rel="noreferrer">HERE</a></p>
         </div>
         </>
     },
@@ -178,7 +180,8 @@ export let commands = [
         <p>This appp uses React 18 utilizing funcitonal components.</p>
         <br />
         <p>You can view the source code on my Github <a href="https://github.com/jon-tschida/react-weather-app" target="_blank" rel="noreferrer">HERE</a>.</p>
-
+        <br />
+        <p>You can view a live version of the project <a href="https://jt-react-weather-app.netlify.app" target="_blank" rel="noreferrer">HERE</a>.</p>
         </div>
         </>
     },
