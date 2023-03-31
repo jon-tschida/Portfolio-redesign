@@ -197,7 +197,7 @@ export let commands = [
         <p>
         After that was live for ~1 year, I figured it was time to update it to something more unique, maybe something that would stand out more. I figured a mock CLI type of site would be unique enough to turn a head or two, and also show off my abilites.</p>
         <br />
-        <p>If you like, you can view the source files on GitHub <a target="_blank" href="https://github.com/jon-tschida/Portfolio-redesign">HERE</a></p>
+        <p>If you like, you can view the source files on GitHub <a target="_blank" href="https://github.com/jon-tschida/Portfolio-redesign" rel="noreferrer">HERE</a></p>
         </div>
         </>
     },
