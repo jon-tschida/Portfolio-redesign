@@ -248,7 +248,7 @@ export let commands = [
         <div className="payload-body">
         
             <ul>
-                <li>Contribute to the development of Internal tooling, utilizing CSS, HTML, JavaScript, React</li>
+                <li>Lead the development of Internal tooling, utilizing CSS, HTML, JavaScript, and React</li>
                 <li>Provide technical support for Flywheel users</li>
                 <li>Assist with the training of new and existing support team members</li>
                 <li>Observe and track trends and use that data to submit product/platform bugs</li>
@@ -270,6 +270,19 @@ export let commands = [
                 <li>Network and computer hardware troubleshooting</li>
             </ul>
 
+        </div>
+        <br />
+        <br />
+        <h4 className="payload-header">Live Projects</h4>
+        <div className="payload-body-skills-container">
+        
+            <div className="payload-body-skills">
+            <ul>
+                <li> <a href="https://listify-meals.com/" target="_blank" rel="noreferrer">Listify-meals.com</a></li>
+                <li><a href="https://thoughtful.cc/" target="_blank" rel="noreferrer">Thoughtful.cc</a></li>
+                <li>Source code is on my <a href="https://github.com/jon-tschida" target="_blank" rel="noreferrer">Github</a></li>
+            </ul>
+            </div>
         </div>
         <br />
         <br />
