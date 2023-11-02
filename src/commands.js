@@ -280,6 +280,7 @@ export let commands = [
             <ul>
                 <li> <a href="https://listify-meals.com/" target="_blank" rel="noreferrer">Listify-meals.com</a></li>
                 <li><a href="https://thoughtful.cc/" target="_blank" rel="noreferrer">Thoughtful.cc</a></li>
+                <li><a href="https://improved-new-tab.netlify.app/" target="_blank" rel="noreferrer">Improved-new-tab</a></li>
                 <li>Source code is on my <a href="https://github.com/jon-tschida" target="_blank" rel="noreferrer">Github</a></li>
             </ul>
             </div>
