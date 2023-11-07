@@ -160,6 +160,29 @@ export let commands = [
         </div>
         </>
     },
+    {
+        command: "/projects --thoughtful",
+        payload: 
+        <>
+        <h4 className="payload-body">-- Thoughtful --</h4>
+        <br />
+        <div className="payload-body">
+        
+        <p>This project was created to help spark thoughtful convesations with friends, family, or significant others.         <p>Thoughtful has ~1,000 active monthly users, and is live <a href="https://thoughtful.cc" target="_blank" rel="noreferrer">HERE</a>.</p></p>
+
+        <br />
+        <p>I was tired of navigating around bloated blogs and articles looking for fun/insightful discussion questions. I didn't want to create something that required the user to create an account or download another app. All the user has to do is load up the site, select a topic, and questions are front and center for them. </p>
+        <br />
+
+        <p>Each question is loaded in the form of a discussion card, with the option to go to the next quesiton, or favorite the card to save for later which are saved in the `favorites` section found at the homepage. These favorites persist in local storage, which removes the need for an account/login.</p>
+
+        <br />
+        <p>This was created with React 18 using functional components, and styled with Tailwind CSS. You can view the source code on my Github <a href="https://github.com/jon-tschida/Listify" target="_blank" rel="noreferrer">HERE</a>.</p>
+        <br />
+
+        </div>
+        </>
+    },
         {
         command: "/projects --react-weather",
         payload: 
