@@ -248,11 +248,11 @@ export let commands = [
         <div className="payload-body">
         
             <ul>
-                <li>Lead the development of Internal tooling, utilizing CSS, HTML, JavaScript, and React</li>
+                <li>Lead the development of Internal tooling, utilizing CSS, HTML, JavaScript, React, and Tailwind</li>
                 <li>Provide technical support for Flywheel users</li>
                 <li>Assist with the training of new and existing support team members</li>
                 <li>Observe and track trends and use that data to submit product/platform bugs</li>
-                <li>Troubleshoot Nginx configurations</li>
+                <li>Create, maintain, and validate internal help documentation</li>
                 <li>Troubleshoot WordPress sites on the Flywheel Hosting Platform</li>
             </ul>
 
